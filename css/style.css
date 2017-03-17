@@ -97,7 +97,7 @@ a:hover{
   color: #cb2128;
 }
 a.navbar-brand {
-  color: #5DBCD2 !important;
+  color: 		#42BFB5 !important;
   font-weight: bold;
   font-size: 24px;
   padding-top: 28px;
@@ -105,6 +105,8 @@ a.navbar-brand {
 .navbar {
   margin-bottom: 0;
 }
+
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
   background-color: inherit;
   color: #cb2128;
@@ -158,7 +160,7 @@ h1 span {
   text-align: center;
 }
 .col-md-3:hover .fa {
-  color: #5DBCD2;
+  color: 		#42BFB5;
 }
 h3:after {
   content: '';
@@ -177,7 +179,7 @@ h3:after {
 .promo {
   width: 100%;
   min-height: 115px;
-  background: #5DBCD2;
+  background: 		#42BFB5;
   margin-top: 50px;
 }
 .promo p {
@@ -222,7 +224,7 @@ h3:after {
 
 }
 .portfolio-caption {
-  background: #5DBCD2;
+  background: 		#42BFB5;
   margin-top: 90px;
   height: 52px;
 }
@@ -278,12 +280,12 @@ h5 {
   font-size: 13px;
 }
 .twitter i {
-  color: #5DBCD2;
+  color: 		#42BFB5;
   font-size: 15px;
   margin-left: -23px;
 }
 .twitter span, .twitter span a {
-  color: #5DBCD2;
+  color: 		#42BFB5;
 }
 .testimonial li {
   color: #b2b2b2;
@@ -325,7 +327,7 @@ h5 {
   color: #444444;
 }
 .submit-bt {
-  background:#5DBCD2;
+  background:		#42BFB5;
   border: none;
   color: white;
   font-weight: 600;
@@ -353,7 +355,7 @@ h5 {
   margin-top: 32px;
 }
 .inner-head {
-  background: #5DBCD2;
+  background: 		#42BFB5;
   min-height: 100px;
   margin-bottom: 60px;
 }
@@ -410,7 +412,7 @@ h5 {
 a.accordion-toggle {
   font-size: 17px;
   font-weight: 300;
-  color: #5DBCD2;
+  color: 		#42BFB5;
   text-transform: capitalize;
 }
 .panel-default > .panel-heading {
@@ -476,7 +478,7 @@ a.accordion-toggle {
 }
 .team-social {
   text-align: center;
-  background: #5DBCD2;
+  background: 		#42BFB5;
   height: 35px;
 }
 .team-social .fa {
@@ -532,7 +534,7 @@ a.accordion-toggle {
   color: white;
 }
 button.active {
-  background: #5DBCD2;
+  background: 		#42BFB5;
   color: white;
   border-radius: 0;
   border: none;
@@ -555,7 +557,7 @@ button.active {
   height: 169px;
 }
 .mix .portfolio-caption {
-  background: #5DBCD2;
+  background: 		#42BFB5;
   margin-top: 68px;
   height: 45px;
 }
@@ -681,7 +683,7 @@ button.send {
   float: none;
   margin: 0 auto;
   border-radius: 3px;
-  background: #5DBCD2;
+  background: 		#42BFB5;
   color: #ffffff;
   border: none;
   float: left;
