@@ -3,7 +3,7 @@ author:uibrush.com
 get free PSD and responsive html templates visit http://www.uibrush.com/
 */
 *{
- font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 .wrapper{
 	width: 100%;
@@ -113,7 +113,7 @@ a.navbar-brand {
 }
 .navbar-default .navbar-nav > li > a {
   font-size: 14px;
-  font-family:proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family:'Roboto', sans-serif;
 
   color: #1b1a1a ;
   text-transform: uppercase;
@@ -378,7 +378,7 @@ h5 {
   margin-bottom: 20px;
 }
 .inner-page p {
-  font-style:proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style:'Roboto', sans-serif;
   font-size: 14px;
   text-align: justify;
   line-height: 25px;
