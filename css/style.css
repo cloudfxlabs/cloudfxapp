@@ -6,9 +6,11 @@
 @import url('animate.css');
 
 
+.nav-tabs > li > a{
 
+}
 body {
-	font-family:'Roboto', sans-serif;
+	font-family: sans-serif;
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
@@ -18,20 +20,20 @@ body {
 }
 #breadcrumb {
 	background-color: #42BFB5;
-	margin-top: -20px;
+	margin-top: -10px;
 }
 
 .breadcrumb {
   list-style: none;
   background-color: #42BFB5;
   border-radius: 0px;
-  padding:3px 10px;
+  padding:2px 8px;
 }
 
 .breadcrumb li {
-   /*text-transform:uppercase;*/
-   margin-top:105px;
-   font-weight:600;
+   text-transform:uppercase;
+   margin-top:90px;
+   font-weight:500;
 }
 
 /*===========================
@@ -39,7 +41,7 @@ body {
 ============================ */
 .navigation  {
 	background-color:#fff;
-	padding:0;
+	padding:8px;
 }
 
 .navbar-brand h1 {
@@ -76,7 +78,7 @@ body {
 .nav-tabs > li > a {
 	border-radius:0;
 	color:#333;
-	padding:15px;
+	padding:10px;
 }
 
 .nav-tabs > li > a:hover {
@@ -90,6 +92,7 @@ body {
 	-o-transition: all 0.3s ease-in-out;
 }
 .nav-tabs > li > a.active {
+	text-shadow: none;
 	color: #cb2128;
 	border-radius:0;
 	transition: all 0.3s ease-in-out;
@@ -290,6 +293,34 @@ body {
 	color:#42BFB5;
 	background:#ddd;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+		text-decoration:none;
+    /*background-color: #fff;*/
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+	color: #fff;
+    background-color: #42BFB5;
+    border-color: #42BFB5;
+}
+
+}
+
+a {
+    text-decoration:none;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+	color:#cb2128;
+	text-shadow:0;
+
+}
 
 a.scrollup{
     color:#fff;
@@ -305,11 +336,13 @@ a.scrollup{
 	opacity:0,5;
 	border-radius:50%;
 	z-index:999;
+
+
 }
 a.scrollup:hover{
 	opacity:1;
-	background-color:#42BFB5;
-	color:#42BFB5;
+	background-color:#ddd;
+	color:#42BFB5
 }
 .btn-primary {
   padding: 8px 20px;
@@ -485,7 +518,8 @@ div#bs-example-navbar-collapse-1 {
 }
 a, a:hover, a:focus{
   text-decoration: none;
-	    font-size: 15px;
+	    font-size: 13px;
+			text-shadow: none;
 }
 .service-icon {
   font-size: 60px;
@@ -772,27 +806,7 @@ h5 {
   text-align: center;
   margin: 8px;*/
 }
-/*scrollup*/
-a.scrollup{
 
-	height:40px;
-	width:40px;
-	font-size:12px;
-	line-height:30px;
-	text-align:center;
-	text-decoration:none;
-	position:fixed;
-	bottom:30px;
-	right:40px;
-	opacity:0,5;
-	border-radius:50%;
-	z-index:999;
-}
-a.scrollup:hover{
-	opacity:1;
-	background-color:#ddd;
-	color:#42BFB5;
-}
 
 .copyright {
   background: ;
