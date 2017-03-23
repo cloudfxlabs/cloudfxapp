@@ -1,27 +1,17 @@
 <?php
-$to = '';
-$subject = '';
-$from = 'vvishnu405@gmail.com';
+   $to = "abc@example.com";//change receiver address
+   $subject = "This is subject";
+   $message = "<h1>This is HTML heading</h1>";
 
-// To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+   $header = "From:vvishnu405@gamil.com \r\n";
+   $header .= "MIME-Version: 1.0 \r\n";
+   $header .= "Content-type: text/html;charset=UTF-8 \r\n";
 
-// Create email headers
-$headers .= 'From: '.$from."\r\n".
-    'Reply-To: '.$from."\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+   $result = mail ($to,$subject,$message,$header);
 
-// Compose a simple HTML email message
-$message = '<html><body>';
-$message .= '<h1 style="color:#f40;">Hi Jane!</h1>';
-$message .= '<p style="color:#080;font-size:18px;">Will you marry me?</p>';
-$message .= '</body></html>';
-
-// Sending email
-if(mail($to, $subject, $message, $headers)){
-    echo 'Your mail has been sent successfully.';
-} else{
-    echo 'Unable to send email. Please try again.';
-}
+   if( $result == true ){
+      echo "Message sent successfully...";
+   }else{
+      echo "Sorry, unable to send mail...";
+   }
 ?>
