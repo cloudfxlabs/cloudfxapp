@@ -6,6 +6,9 @@
 @import url('animate.css');
 
 
+<<<<<<< HEAD
+
+
 
 
 
@@ -93,6 +96,13 @@ a,a:hover{
 
 body {
 	font-family:'Roboto', sans-serif;
+=======
+.nav-tabs > li > a{
+
+}
+body {
+	font-family: sans-serif;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
@@ -102,19 +112,28 @@ body {
 }
 #breadcrumb {
 	background-color: #42BFB5;
+<<<<<<< HEAD
 	margin-top: -15px;
+=======
+	margin-top: -10px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 .breadcrumb {
   list-style: none;
   background-color: #42BFB5;
   border-radius: 0px;
+<<<<<<< HEAD
   padding:3px 10px;
+=======
+  padding:2px 8px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 .breadcrumb li {
    text-transform:uppercase;
    margin-top:90px;
+<<<<<<< HEAD
    font-weight:600;
 }
 
@@ -125,6 +144,9 @@ body {
 	color: ;
     background-color: #42BFB5;
     /*border-color: #42BFB5;*/
+=======
+   font-weight:500;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 /*===========================
@@ -132,7 +154,11 @@ body {
 ============================ */
 .navigation  {
 	background-color:#fff;
+<<<<<<< HEAD
 	padding:0;
+=======
+	padding:8px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 .navbar-brand h1 {
@@ -152,8 +178,12 @@ body {
 	font-size:12px;
 	float:right;
 	text-transform:uppercase;
+<<<<<<< HEAD
 	font-weight:500;
 	text-shadow: none;
+=======
+	font-weight:700;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 .menu ul.nav-tabs li {
@@ -170,7 +200,11 @@ body {
 .nav-tabs > li > a {
 	border-radius:0;
 	color:#333;
+<<<<<<< HEAD
 	padding:15px;
+=======
+	padding:10px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 
 .nav-tabs > li > a:hover {
@@ -184,6 +218,10 @@ body {
 	-o-transition: all 0.3s ease-in-out;
 }
 .nav-tabs > li > a.active {
+<<<<<<< HEAD
+=======
+	text-shadow: none;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 	color: #cb2128;
 	border-radius:0;
 	transition: all 0.3s ease-in-out;
@@ -295,7 +333,15 @@ body {
 	width:175px;
 	height:50px;
 	letter-spacing: 0px;
+<<<<<<< HEAD
 	background:#42BFB5;
+=======
+<<<<<<< HEAD
+	background:#42BFB5;
+=======
+	background:#7cc576;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
 	border-radius:3px;
 	color:#ffffff;
 	font-size:16px;
@@ -308,7 +354,16 @@ body {
 }
 
 .input-btn:hover{
+<<<<<<< HEAD
 	color: ;
+=======
+<<<<<<< HEAD
+	color: ;
+=======
+	background: #fff;
+	color: #222;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
 }
 
 /*social login end*/
@@ -368,6 +423,10 @@ body {
 #contact-page .contact-wrap {
   margin-top: 20px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
 h2{
 	font-size:34px;
 	color:#222222;
@@ -378,6 +437,11 @@ h2{
 	text-align:center;
 	text-transform:uppercase;
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
 
 .center h2{
   font-size: 36px;
@@ -389,6 +453,41 @@ h2{
    text-align:center;
 }
 
+<<<<<<< HEAD
+=======
+.btn-lg:hover {
+	color:#42BFB5;
+	background:#ddd;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+		text-decoration:none;
+    /*background-color: #fff;*/
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+	color: #fff;
+    background-color: #42BFB5;
+    border-color: #42BFB5;
+}
+
+}
+
+a {
+    text-decoration:none;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+	color:#cb2128;
+	text-shadow:0;
+
+}
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 
 a.scrollup{
     color:#fff;
@@ -404,6 +503,7 @@ a.scrollup{
 	opacity:0,5;
 	border-radius:50%;
 	z-index:999;
+<<<<<<< HEAD
 }
 a.scrollup:hover{
 	opacity:1;
@@ -412,11 +512,34 @@ a.scrollup:hover{
 }
 .btn-primary {
   padding: 8px 7px;
+<<<<<<< HEAD
+=======
+=======
+
+
+}
+a.scrollup:hover{
+	opacity:1;
+	background-color:#ddd;
+	color:#42BFB5
+}
+.btn-primary {
+  padding: 8px 20px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
   background: #42BFB5;
   color: #fff;
   border-radius: 4px;
   border:none;
+<<<<<<< HEAD
   margin-top: -6px;
+=======
+<<<<<<< HEAD
+  margin-top: -6px;
+=======
+  margin-top: 10px;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
+>>>>>>> 6d4b406e18b0590bfe3badfe92f4d92e4acca1ce
 }
 
 
@@ -584,7 +707,12 @@ div#bs-example-navbar-collapse-1 {
 }
 a, a:hover, a:focus{
   text-decoration: none;
+<<<<<<< HEAD
 	    font-size: 15px;
+=======
+	    font-size: 13px;
+			text-shadow: none;
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 }
 .service-icon {
   font-size: 60px;
@@ -871,6 +999,7 @@ h5 {
   text-align: center;
   margin: 8px;*/
 }
+<<<<<<< HEAD
 /*scrollup*/
 a.scrollup{
 
@@ -892,6 +1021,9 @@ a.scrollup:hover{
 	background-color:#ddd;
 	color:#42BFB5;
 }
+=======
+
+>>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 
 .copyright {
   background: ;
