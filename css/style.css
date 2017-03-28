@@ -7,8 +7,10 @@
 
 
 
+
+
 * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
+body {font-family: 'Roboto',sans-serif; color:#888888;}
 .mySlides {display:none}
 
 /* Slideshow container */
@@ -16,18 +18,56 @@ body {font-family: Verdana,sans-serif;}
   max-width: 100%;
   position: relative;
   margin: auto;
-  heigh:50%;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-/* Caption text */
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
 /* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color:;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: ;
+}
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3.0s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3.0s;
 }
 
 @-webkit-keyframes fade {
@@ -255,7 +295,7 @@ body {
 	width:175px;
 	height:50px;
 	letter-spacing: 0px;
-	background:#7cc576;
+	background:#42BFB5;
 	border-radius:3px;
 	color:#ffffff;
 	font-size:16px;
@@ -268,8 +308,7 @@ body {
 }
 
 .input-btn:hover{
-	background: #fff;
-	color: #222;
+	color: ;
 }
 
 /*social login end*/
@@ -329,6 +368,16 @@ body {
 #contact-page .contact-wrap {
   margin-top: 20px;
 }
+h2{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
 
 .center h2{
   font-size: 36px;
@@ -362,12 +411,12 @@ a.scrollup:hover{
 	color:#42BFB5;
 }
 .btn-primary {
-  padding: 8px 20px;
+  padding: 8px 7px;
   background: #42BFB5;
   color: #fff;
   border-radius: 4px;
   border:none;
-  margin-top: 10px;
+  margin-top: -6px;
 }
 
 
@@ -1391,4 +1440,43 @@ a.navbar-brand {
 .portfolio-caption h5 {
     margin-left: 50px;
 }
+}
+
+
+
+/* Contact
+---------------------------------*/
+.main-section.contact{
+	padding:90px 0 100px;
+}
+
+.main-section.contact{
+	background:url(../img/bg-map.png) left 190px no-repeat;
+}
+
+.contact-info-box{
+	font-size:15px;
+	margin:0 0 14px 68px;
+	padding-left:0;
+}
+.contact-info-box h3{
+	font-size: 15px;
+	font-weight:400;
+	float:left;
+	width:102px;
+	margin-right:12px;
+	line-height:28px;
+}
+.contact-info-box h3 i{
+	font-style:normal;
+	font-size:18px;
+	color:#222222;
+	font-family: 'FontAwesome';
+	font-weight:normal;
+	margin-right:7px;
+}
+.contact-info-box span{
+	line-height:28px;
+	display:block;
+	overflow:hidden;
 }
