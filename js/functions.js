@@ -1,24 +1,10 @@
 jQuery(function($) {
 
-<<<<<<< HEAD
 
 
 	//Initiat WOW JS
 	new WOW().init();
 
-=======
-	//#main-slider
-	$(function(){
-		$('#main-slider.carousel').carousel({
-			interval: 8000
-		});
-	});
-	
-	
-	//Initiat WOW JS
-	new WOW().init();
-	
->>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
 			$('.scrollup').fadeIn();
@@ -30,7 +16,6 @@ jQuery(function($) {
 			$("html, body").animate({ scrollTop: 0 }, 1000);
 				return false;
 		});
-<<<<<<< HEAD
 
 	// // portfolio filter
 	// $(window).load(function(){'use strict';
@@ -53,33 +38,6 @@ jQuery(function($) {
 
 
 
-=======
-	
-	// portfolio filter
-	$(window).load(function(){'use strict';
-		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		var $portfolio = $('.portfolio-items');
-		$portfolio.isotope({
-			itemSelector : '.portfolio-item',
-			layoutMode : 'fitRows'
-		});
-		
-		$portfolio_selectors.on('click', function(){
-			$portfolio_selectors.removeClass('active');
-			$(this).addClass('active');
-			var selector = $(this).attr('data-filter');
-			$portfolio.isotope({ filter: selector });
-			return false;
-		});
-	});
-
-
-	//Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});	
-    
->>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
     //Google Map
     var get_latitude = $('#google-map').data('latitude');
     var get_longitude = $('#google-map').data('longitude');
@@ -98,8 +56,4 @@ jQuery(function($) {
         });
     }
     google.maps.event.addDomListener(window, 'load', initialize_google_map);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 55b572bf9ffa22983a58fc1cf130b8782e61a0db
