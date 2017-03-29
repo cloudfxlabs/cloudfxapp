@@ -1447,11 +1447,10 @@ a.navbar-brand {
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:40px 0 60px;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
 }
 
 .contact-info-box{
