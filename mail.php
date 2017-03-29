@@ -1,21 +1,20 @@
 <?php
-$to = 'InsertYourEmailAddress';
-$subject = "Beautiful HTML Email using PHP by CodexWorld";
-// Get HTML contents from file
-$htmlContent = file_get_contents("contact.html");
+         $to = "";
+         $subject = "This is subject";
 
-// Set content-type for sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+         $message = "<b>This is HTML message.</b>";
+         $message .= "<h1>This is headline.</h1>";
 
-// Additional headers
-$headers .= 'From: vvishnu405@gmail.com.com>' . "\r\n";
-// $headers .= 'Cc: codexworld@gmail.com' . "\r\n";
+         $header = "From:vvishnu405@gmail.com \r\n";
+         $header .= " \r\n";
+         $header .= "MIME-Version: 1.0\r\n";
+         $header .= "Content-type: text/html\r\n";
 
-// Send email
-if(mail($to,$subject,$htmlContent,$headers)):
-	$successMsg = 'Email has sent successfully.';
-else:
-	$errorMsg = 'Some problem occurred, please try again.';
-endif;
-?>
+         $retval = mail ($to,$subject,$message,$header);
+
+         if( $retval == true ) {
+            echo "Message sent successfully...";
+         }else {
+            echo "Message could not be sent...";
+         }
+      ?>
