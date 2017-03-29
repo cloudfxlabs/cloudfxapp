@@ -1,20 +1,14 @@
 <?php
-         $to = "";
-         $subject = "This is subject";
+$to      = 'vishnu405@hotmail.com';
+$subject = 'Fake sendmail test';
+$message = 'If we can read this, it means that our fake Sendmail setup works!';
+$headers = 'From: vvishnu405@gmail.com' . "\r\n" .
+           'Reply-To: vvishnu405@gmail.com' . "\r\n" .
+           'X-Mailer: PHP/' . phpversion();
 
-         $message = "<b>This is HTML message.</b>";
-         $message .= "<h1>This is headline.</h1>";
-
-         $header = "From:vvishnu405@gmail.com \r\n";
-         $header .= " \r\n";
-         $header .= "MIME-Version: 1.0\r\n";
-         $header .= "Content-type: text/html\r\n";
-
-         $retval = mail ($to,$subject,$message,$header);
-
-         if( $retval == true ) {
-            echo "Message sent successfully...";
-         }else {
-            echo "Message could not be sent...";
-         }
-      ?>
+if(mail($to, $subject, $message, $headers)) {
+    echo 'Email sent successfully!';
+} else {
+    die('Failure: Email was not sent!');
+}
+?>
