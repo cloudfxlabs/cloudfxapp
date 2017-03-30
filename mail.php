@@ -1,14 +1,17 @@
 <?php
-$to      = 'vishnu405@hotmail.com';
-$subject = 'Fake sendmail test';
-$message = '!';
-$headers = 'From: vvishnu405@gmail.com' . "\r\n" .
-           'Reply-To: vvishnu405@gmail.com' . "\r\n" .
-           'X-Mailer: PHP/' . phpversion();
+   $to = "vishnu405@hotmail.com";//change receiver address
+   $subject = "This is subject";
+   $message = "<h1>This is HTML heading</h1>";
 
-if(mail($to, $subject, $message, $headers)) {
-    echo 'Email sent successfully!';
-} else {
-    die('Failure: Email was not sent!');
-}
+   $header = "From:vvishnu405@gmail.com \r\n";
+   $header .= "MIME-Version: 1.0 \r\n";
+   $header .= "Content-type: text/html;charset=UTF-8 \r\n";
+
+   $result = mail ($to,$subject,$message,$header);
+
+   if( $result == true ){
+      echo "Message sent successfully...";
+   }else{
+      echo "Sorry, unable to send mail...";
+   }
 ?>
