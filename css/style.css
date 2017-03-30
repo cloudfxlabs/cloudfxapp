@@ -5,14 +5,31 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
 
+.circle-icon {
+    background: #42BFB5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+}
+body {
+	background:#fff;
+	font-family: 'Roboto',sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#000000;
+	margin:0;
+}
 
 
 
-
-* {box-sizing:border-box}
-body {font-family: 'Roboto',sans-serif; color:#888888;}
+/** {box-sizing:border-box}
+body {font-family: 'Roboto',sans-serif; color:#cb2128;}
 .mySlides {display:none}
-
+*/
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -65,19 +82,19 @@ h3{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.0s;
+  -webkit-animation-duration: 3.0s;
   animation-name: fade;
-  animation-duration: 2.0s;
+  animation-duration: 3.0s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: .6}
+  to {opacity: 2}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: .6}
+  to {opacity: 2}
 }
 
 /* On smaller screens, decrease text size */
@@ -585,6 +602,7 @@ div#bs-example-navbar-collapse-1 {
 a, a:hover, a:focus{
   text-decoration: none;
 	    font-size: 15px;
+      color:#cb2128;
 }
 .service-icon {
   font-size: 60px;
@@ -695,7 +713,7 @@ h1 span {
   text-align: center;
 }
 .col-md-3:hover .fa {
-  color: 		#42BFB5;
+  color: 		#cb2128;
 }
 h3:after {
   content: '';
@@ -1450,8 +1468,7 @@ a.navbar-brand {
 	padding:40px 0 60px;
 }
 
-.main-section.contact{
-}
+
 
 .contact-info-box{
 	font-size:15px;
