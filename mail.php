@@ -1,17 +1,30 @@
 <?php
-   $to = "vvishnu405@gamil.com";//change receiver address
-   $subject = "This is subject";
-   $message = "<h1>This is HTML heading</h1>";
 
-   $header = "From: \r\n";
-   $header .= "MIME-Version: 1.0 \r\n";
-   $header .= "Content-type: text/html;charset=UTF-8 \r\n";
+$mail = new PHPMailer(true);
 
-   $result = mail ($to,$subject,$message,$header);
+//Send mail using gmail
+if($send_using_gmail){
+    $mail->IsSMTP(); // telling the class to use SMTP
+    $mail->SMTPAuth = true; // enable SMTP authentication
+    $mail->SMTPSecure = "ssl"; // sets the prefix to the servier
+    $mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server
+    $mail->Port = 465; // set the SMTP port for the GMAIL server
+    $mail->Username = "vvishnu405@gmail.com"; // GMAIL username
+    $mail->Password = "10106122"; // GMAIL password
+}
 
-   if( $result == true ){
-      echo "Message sent successfully...";
-   }else{
-      echo "Sorry, unable to send mail...";
-   }
+//Typical mail data
+$mail->AddAddress($email, $name);
+$mail->SetFrom($email_from, $name_from);
+$mail->Subject = "My Subject";
+$mail->Body = "Mail contents";
+
+try{
+    $mail->Send();
+    echo "Success!";
+} catch(Exception $e){
+    //Something went bad
+    echo "Fail :(";
+}
+
 ?>
