@@ -1,21 +1,16 @@
 
      <?php
-        $to = "vvishn405@gmail.com";
-        $subject = "This is subject";
-
-        $message = "<b>This is HTML message.</b>";
-        $message .= "<h1>This is headline.</h1>";
-
-        $header = "From:vvishn405@gmail.com \r\n";
-
-        $header .= "MIME-Version: 1.0\r\n";
-        $header .= "Content-type: text/html\r\n";
-
-        $retval = mail ($to,$subject,$message,$header);
-
-        if( $retval == true ) {
-           echo "Message sent successfully...";
-        }else {
-           echo "Message could not be sent...";
+      if(isset($_POST['submit'])){
+        $msg='Name:'.$_POST['name'] ."\n"
+            .'Email:'.$_POST['email'] ."\n"
+            .'Message' .$_pOST['subject'] ."\n"
+            .'Comment:' .$_POST['Comment'];
+        mail('vvishnu405@gmail.com','Sample contact',$msg);
+      }
+      else {
+        header('location:contact.html');
+        exit(0);
         }
+
+
      ?>
