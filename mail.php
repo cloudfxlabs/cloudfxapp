@@ -1,30 +1,21 @@
-<?php
 
-$mail = new PHPMailer(true);
+     <?php
+        $to = "vgunipati@cloudfxlabs.io";
+        $subject = "This is subject";
 
-//Send mail using gmail
-if($send_using_gmail){
-    $mail->IsSMTP(); // telling the class to use SMTP
-    $mail->SMTPAuth = true; // enable SMTP authentication
-    $mail->SMTPSecure = "ssl"; // sets the prefix to the servier
-    $mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server
-    $mail->Port = 465; // set the SMTP port for the GMAIL server
-    $mail->Username = "vvishnu405@gmail.com"; // GMAIL username
-    $mail->Password = "10106122"; // GMAIL password
-}
+        $message = "<b>This is HTML message.</b>";
+        $message .= "<h1>This is headline.</h1>";
 
-//Typical mail data
-$mail->AddAddress($email, $name);
-$mail->SetFrom($email_from, $name_from);
-$mail->Subject = "My Subject";
-$mail->Body = "Mail contents";
+        $header = "From: \r\n";
 
-try{
-    $mail->Send();
-    echo "Success!";
-} catch(Exception $e){
-    //Something went bad
-    echo "Fail :(";
-}
+        $header .= "MIME-Version: 1.0\r\n";
+        $header .= "Content-type: text/html\r\n";
 
-?>
+        $retval = mail ($to,$subject,$message,$header);
+
+        if( $retval == true ) {
+           echo "Message sent successfully...";
+        }else {
+           echo "Message could not be sent...";
+        }
+     ?>
