@@ -26,7 +26,7 @@
 
     </head>
     <body data-responsejs='{ "create": [ { "prop": "width", "breakpoints": [0, 320, 481, 641, 961, 1025, 1281, 1400] }]}'>
-			<header>
+      <header>
 				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="navigation">
 						<div class="container">
@@ -46,11 +46,19 @@
 								<div class="menu">
 									<ul class="nav nav-tabs" role="tablist">
 										<li role="presentation"><a href="index.html">Home</a></li>
-										<li role="presentation"><a href="about_us.html">Solutions</a></li>
+										<li class="dropdown active">
+											 <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solutions <i class="fa fa-angle-down"></i></a>
+												<ul class="dropdown-menu">
+														<li><a href="Automation.html">Automation</a></li>
+														<li><a href="performance.html">Performance</a></li>
+														<li><a href="mobile.html">mobile</a></li>
+														<li><a href="Testing.html">Testing</a></li>
+                         </ul>
+											 </li>
 										<!-- <li role="presentation"><a href="services.html">Services</a></li> -->
 										<li role="presentation"><a href="Product.html">Product</a></li>
-										<li role="presentation"><a href="Training.html"class="active">Training</a></li>
-										<li role="presentation"><a href="contact.html" >Contact</a></li>
+										<li role="presentation"><a href="Training.html">Training</a></li>
+										<li role="presentation"><a href="contact.html" class="active">Contact</a></li>
 									</ul>
 								</div>
 							</div>
@@ -58,20 +66,21 @@
 					</div>
 				</nav>
 			</header>
-			<img src="img/StockSnap_Y01VDYAX63.jpg" style="width:100%" height="640px">
+      <div id="container">
+      <img src="img/Plain2.jpg" style="width:100%" height="400px" />
+      <!-- <a href="contact.html"><p id="text">
+       CONTACT US
+     </p></a>
+    <a href="index.html"><p class="text"> Home/Performance </p></a> -->
+  </div><br>
 
-			<!-- <div id="breadcrumb">
-				<div class="container">
-					<div class="breadcrumb">
-						<li><a href="index.html">Home</a></li>
-						<li>Product</li>
-					</div>
-				</div>
-			</div>-->
-
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h2>SOFTWARE TESTING SOLUTIONS</h2>
+  <h1 style="font-size:20px; text-align: center">A lack of tools, training, time, and other resources is a major obstacle for development teams, preventing them from<br><br>
+    suﬃciently testing before release. In addition to providing essential resources, we identify the key areas of risk for your <br><br>
+    technology and help build the right test plan for you.</h1>
 
 
+        <br><br>
 	<!-- footer -->
 	<footer>
 		<div class="footer">
