@@ -14,24 +14,35 @@
   border: 1px solid rgba(0, 0, 0, .2);
 }
 .color {
-  background: #71a5d8;
+  background: #42BFB5;
 }
-.about.spacer{
+.for
+{
+  float: left;
+  width: 270px;
+  height: 270px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  }
+  .white{
+    background: #fff;
+  }
+  .about.spacer{
   padding-left: 4em;
   padding-right: 4em;
   padding-bottom: 0;
 }
 .process ul li{
   width: 5em;
-  height: 10em;
+  height: 7em;
   padding: 0;
   border-radius: 50%;
   margin: 0 1.0em;
-  line-height: 6em;
+  line-height: 3em;
   color: #21ABCA;
 }
 .process ul li span{
-  line-height: 2em;
+  line-height: 1em;
   display: inline-block;
   font-weight: 300;
 }
@@ -49,6 +60,27 @@ h1{
     color:#fff;
     font-size: 3em;
   }
+  #port-folio {
+      padding-top: 10px;
+      min-height: 550px;
+  }
+
+  .portfolio-item {
+      border: 0.5px solid #e4e4e4;
+      margin: 0px 5px;
+      display: inline-block;
+  }
+  .portfolio-item img:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.5, 1.5);
+          -ms-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+          transition-duration: 0.3s;
+          -webkit-transition-duration: 0.3s; /* Safari */
+          z-index: 1;
+      }
+
+
 
 /*end training*/
 
