@@ -6,59 +6,10 @@ our-works
 @import url('animate.css');
 /*selenium*/
 /*--header start here--*/
-.header {
-    padding: 1em;
-    background: #fff;
-}
-.logo h1 {
-    font-size: 2.8em;
-    color:#A0431B;
-    font-family: 'Kreon', serif;
-}
-.details {
-    margin-top:0.5em;
-}
-.addre {
-    float: left;
-    width: 32%;
-    text-align: center;
-}
-.addre.addres-mes {
-    float: right;
-    width: 32%;
-}
 
-.addre p {
-    font-size:0.85em;
-    color: #999;
-    display: inline-block;
-}
-.addre p a{
-	color: #999;
-}
-.addre p a:hover{
-	color:#fba919;
-}
-.top-nav {
-    background: #fba919;
-}
-.navbar-nav {
-    float:none !important;
-    margin: 0;
-}
-.navbar-nav > li {
-    width: 20%;
-    text-align: center;
-}
-div#navbar {
-    padding: 0px !important;
-}
-ul.nav.navbar-nav li a {
-    font-size: 1em;
-    color: #fff;
 
-    border-bottom: 2px solid #A0431B;
-}
+
+
 .nav > li > a:hover, .nav > li > a:focus {
     background-color:#A0431B;
 }
@@ -100,7 +51,7 @@ ul.nav.navbar-nav li a {
 	 border-bottom:3px solid #BA7C10;
 }
 /*--header end here--*/
-/*--welcome  grid start here--*/
+/*--selenium body--*/
 .welcome {
     padding:3em 0em;
 }
@@ -151,7 +102,7 @@ ul.nav.navbar-nav li a {
     margin: 0 auto;
     line-height: 1.7em;
 }
-/*--welcome grid end here--*/
+/*-- end here--*/
 /*Training*/
 
 .training{
@@ -220,13 +171,6 @@ h1{
   }
 
 
-  @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,700,800,900');
-body {
-	margin-top: 60px;
-	font-size: 14px;
-	font-family: 'Arima Madurai', cursive;
-	background-color: #E5E9ED;
-}
 .btn:hover,
 .btn:focus,
 .btn:active{
@@ -640,16 +584,7 @@ body {
 
 
 
-/** {box-sizing:border-box}
-body {font-family: 'Roboto',sans-serif; color:#cb2128;}
-.mySlides {display:none}
-*/
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
+
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
@@ -1185,6 +1120,7 @@ ul.social-network li a {
  .container {
   padding: 0;
   position: relative;
+  width: 100%;
 }
 
 div#bs-example-navbar-collapse-1 {
