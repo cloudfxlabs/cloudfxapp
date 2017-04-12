@@ -4,9 +4,166 @@ our-works
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
+/*selenium*/
+/*--header start here--*/
+.header {
+    padding: 1em;
+    background: #fff;
+}
+.logo h1 {
+    font-size: 2.8em;
+    color:#A0431B;
+    font-family: 'Kreon', serif;
+}
+.details {
+    margin-top:0.5em;
+}
+.addre {
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+.addre.addres-mes {
+    float: right;
+    width: 32%;
+}
 
+.addre p {
+    font-size:0.85em;
+    color: #999;
+    display: inline-block;
+}
+.addre p a{
+	color: #999;
+}
+.addre p a:hover{
+	color:#fba919;
+}
+.top-nav {
+    background: #fba919;
+}
+.navbar-nav {
+    float:none !important;
+    margin: 0;
+}
+.navbar-nav > li {
+    width: 20%;
+    text-align: center;
+}
+div#navbar {
+    padding: 0px !important;
+}
+ul.nav.navbar-nav li a {
+    font-size: 1em;
+    color: #fff;
+
+    border-bottom: 2px solid #A0431B;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:#A0431B;
+}
+.banner-bottom {
+    margin-top: 10em;
+    float: right;
+    width: 40%;
+}
+.banner-bottom h2 {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.3em;
+  font-family: 'Kreon', serif;
+}
+.bann-para {
+    margin-top: 3em;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.51);
+}
+.bann-para p {
+    font-size: 0.9em;
+    color:#cb2128;
+    line-height: 1.8em;
+}
+.banner-bottom a {
+    font-size: 0.95em;
+    color: #fff;
+    padding: 0.65em 1em;
+    background:#cb2128;
+    display: block;
+    width:25%;
+    text-align: center;
+   font-family: 'Kreon', serif;
+    border-bottom:3px solid #cb2128;
+}
+.banner-bottom a:hover{
+	 background:#42BFB5;
+	 text-decoration:none;
+	 border-bottom:3px solid #BA7C10;
+}
+/*--header end here--*/
+/*--welcome  grid start here--*/
+.welcome {
+    padding:3em 0em;
+}
+.wel-top h3 {
+    font-size: 2.2em;
+    color:#cb2128;
+    text-align: center;
+   font-family: 'Kreon', serif;
+}
+.wel-top {
+    margin-bottom:1em;
+}
+.wel-img {
+    float: left;
+    width: 50%;
+    border-radius: 15px;
+    border: 5px solid #fba919;
+}
+.wel-img:hover{
+  border: 5px solid #cb2128;
+   transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.wel-img img{
+  border-radius: 10px;
+}
+.wel-text {
+    float: right;
+    width: 50%;
+    margin-top:2em;
+    text-align: center;
+}
+.wel-block {
+    margin-top: 4em;
+}
+.wel-text h4 {
+    font-size: 1.3em;
+    color:#000000;
+    margin-bottom: 0.25em;
+    font-family: 'Kreon', serif;
+}
+.wel-text p {
+    font-size: 0.95em;
+    color:#cb2128;
+    width: 87%;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+/*--welcome grid end here--*/
 /*Training*/
 
+.training{
+  background-image: url(../img/books.jpg);
+  background-size: cover;
+   min-height: 600px;
+}
+.banner1 {
+    background: url(../images/books.jpg)no-repeat top;
+    background-size: cover;
+    min-height:400px;
+  }
 .fooo {
   float: left;
   width: 100%;
@@ -509,7 +666,8 @@ h3{
   position: absolute;
   bottom: 280px;
   width: 100%;
-  left: 30px
+  left: 30px;
+    text-align: center;
   /*text-align: center;*/
 }
 
