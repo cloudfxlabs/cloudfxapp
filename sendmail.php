@@ -1,11 +1,11 @@
 <?php
-$from="vvishnu405@gmail.com";
+$from="vishnu405@hotmail.com";
 $name=$_POST['name'];
 $email=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
-mail($email, $subject, $message,"Form:".$from);
+mail($name, $email, $subject, $message,"Form:".$from);
 
-print "your message sent :</br>$email</br>$subject</br>$message</p>";
+print "your message sent :</br>$name</br>$email</br>$subject</br>$message</p>";
 
 ?>
