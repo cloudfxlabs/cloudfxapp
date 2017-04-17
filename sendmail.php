@@ -5,5 +5,6 @@ $subject=$_POST['subject'];
 $message=$_POST['message'];
 mail($email, $subject, $message,"Form:".$from);
 
-print"your message sent :<br>$email</br>$subject</br>$message</p>;
+printf "your message sent :<br>$email</br>$subject</br>$message</p>";
+
 ?>
