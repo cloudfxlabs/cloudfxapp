@@ -155,14 +155,14 @@ function showSlides() {
 
         var jssor_1_options = {
           $AutoPlay: 1,
-          $AutoPlaySteps: 4,
-          $SlideDuration: 160,
-          $SlideWidth: 200,
+          $AutoPlaySteps: 3,
+          $SlideDuration: 200,
+          $SlideWidth: 268,
           $SlideSpacing: 3,
           $Cols: 4,
           $ArrowNavigatorOptions: {
             $Class: $JssorArrowNavigator$,
-            $Steps: 4
+            $Steps: 3
           },
           $BulletNavigatorOptions: {
             $Class: $JssorBulletNavigator$,
@@ -178,7 +178,7 @@ function showSlides() {
         function ScaleSlider() {
             var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
             if (refSize) {
-                refSize = Math.min(refSize, 809);
+                refSize = Math.min(refSize, 1100);
                 jssor_1_slider.$ScaleWidth(refSize);
             }
             else {
@@ -191,7 +191,7 @@ function showSlides() {
         $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
         /*responsive code end*/
     };
-</script>
+</script><br><br>
 <div class="container">
 <div class="header-intro">
     <h2>our Works</h2>
