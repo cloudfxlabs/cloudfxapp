@@ -158,6 +158,17 @@ our-works
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.automation{
+  background-image: url(../img/Automation.png);
+  background-size: cover;
+   min-height: 250px;
+}
+.bck-color{
+	background-color: RGBA(12, 11, 11, 0.82);
+	min-height: 250px;
+}
+
+
 .training{
   background-image: url(../img/bg-banner.jpg);
   background-size: cover;
