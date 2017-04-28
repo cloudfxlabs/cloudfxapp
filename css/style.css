@@ -217,7 +217,7 @@ our-works
     font-size: 28px;
     position: relative;
     margin-bottom: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-transform: uppercase;
     font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif
 }
@@ -229,7 +229,7 @@ our-works
     content: " ";
     margin-left: -35px;
     position: absolute;
-    background: #42BFB5;
+    background: #cb2128;
 }
 .title-v1 p {
     font-size: 17px;
