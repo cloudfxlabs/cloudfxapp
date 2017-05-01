@@ -54,58 +54,66 @@
         </div>
       </nav>
     </header>
-  <!-- Newslider -->
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-
-  <img src="img/352H.jpg" style="width:100%"height="640px">
-
-</div>
-
-<div class="mySlides fade">
-
-  <img src="img/StockSnap_Y01VDYAX63.jpg" style="width:100%" height="640px">
-
-</div>
-
-<div class="mySlides fade">
-
-  <img src="img/StockSnap_U3W2SHOLWQ.jpg" style="width:100%" height="640px">
-
-</div>
-
-</div>
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-    <!-- End SLider -->
-
 <!-- slider end -->
+<div id="home">
+<!-- Slider Starts -->
+<div id="myCarousel" class="carousel slide banner-slider animated flipInX" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Item 1 -->
+        <div class="item active">
+          <img src="img/slider.jpg" alt="banner">
+            <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+            		<h1 class="animated bounceInLeft" style="margin-top:-255px";>Creative digital agency</h1>
+              		<p class="animated bounceInRight">Lead by passionate and uber progressive team that lives and breathes design.</p>
+
+              		</div>
+              	</div>
+            </div>
+        </div>
+        <!-- #Item 1 -->
+
+        <!-- Item 1 -->
+        <div class="item">
+          <img src="img/StockSnap_Y01VDYAX63.jpg" alt="banner">
+             <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+
+                  <h1 class="animated bounceInLeft" style="margin-top:-255px";>Creative digital agency</h1>
+                  <p class="animated bounceInRight">Lead by passionate and uber progressive team that lives and breathes design.</p>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- #Item 1 -->
+
+        <!-- Item 1 -->
+        <div class="item">
+          <img src="img/352H.jpg" alt="banner">
+             <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+                <!-- <img src="images/logobig.png" class="animated bounceInUp" alt="logo"> -->
+                  <h1 class="animated bounceInLeft" style="margin-top:-255px";>Creative digital agency</h1>
+                  <p class="animated bounceInRight">Lead by passionate and uber progressive team that lives and breathes design.</p>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- #Item 1 -->
+
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span><i class="fa fa-angle-left"></i></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span><i class="fa fa-angle-right"></i></span></a>
+    </div>
+<!-- #Slider Ends -->
+</div>
+
 
 <section id="about" class="about section-space-padding">
 <div class="container">
