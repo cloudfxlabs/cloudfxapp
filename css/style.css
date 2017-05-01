@@ -6,7 +6,22 @@ our-works
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
+
+
+
+#head,.carousel{margin-top: 0;}
+
+#home{padding-top: 0em;}
+.carousel-caption{top:0;bottom: 0;left: 0; right: 0;padding: 0;}
+.caption-wrapper{display: table;height: 100%;width: 100%;}
+.caption-info{display: table-cell;vertical-align: middle;}
+.caption-info p{font-size: 1.25em;}
+.caption-info .btn i{margin-right:0.75em;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{width: 100%;}
+.carousel-control{z-index:1000;}
 /*selenium*/
+
+
 /*--header start here--*/
 
 .nav > li > a:hover, .nav > li > a:focus {
